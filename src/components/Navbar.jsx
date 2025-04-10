@@ -17,7 +17,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   const handleResumeDownload = () => {
-    const resumeUrl = '/resume.pdf';
+    const resumeUrl = './resume.pdf';
     window.open(resumeUrl, '_blank');
 
     const link = document.createElement('a');
