@@ -4,7 +4,7 @@ import {useGLTF} from '@react-three/drei';
 
 
 const hackerRoom = (props) => {
-const {scene} = useGLTF('/public/hacker_room.glb');
+const {scene} = useGLTF('/hacker_room.glb');
 
   return (
    <primitive object={scene} {...props} />
