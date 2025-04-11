@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import employeproductivitytracker from '../assets/employee-productivity-tracker.png'
-import nesthive from '../assets/nesthive.png'
+import nestHive from '../assets/nestHive.png'
 
 const projectData = [
   {
@@ -25,7 +25,7 @@ const projectData = [
     title: 'Property Listing Platform',
     type: 'Individual Project',
     description: 'A user-friendly platform to list, explore, and manage real estate properties with ease. Perfect for buyers and sellers alike.',
-    image: nesthive,
+    image: nestHive,
     code:'https://github.com/Sneha-Nahak/B43_WEB_160_Web-Project-155/tree/main/nesthive',
     live_link: 'https://67dd58cbdb0a6f0d94fde3e6--animated-dasik-6ee000.netlify.app/'
   },
